@@ -158,17 +158,18 @@ i:hover {
         display: grid;
         grid-template-columns: auto 375px auto;
         grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: ". f ." ". s1 ." ". s2 .";
+        grid-template-areas: ". s1 ." ". s2 ." ". f .";
+        grid-row-gap: 15px;
         align-items: center;
         margin-left: 15px;
-    }
-    #fcc {
-        grid-area: f;
     }
     #sololearn1 {
         grid-area: s1;
     }
     #sololearn2 {
         grid-area: s2;
+    }
+    #fcc {
+        grid-area: f;
     }
 }
