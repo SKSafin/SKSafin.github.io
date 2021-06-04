@@ -23,6 +23,10 @@
     --nav-h-font: "Montserrat" sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*nav bar*/
 
@@ -128,18 +132,17 @@ iframe {
     background-color: var(--footer-bg);
     margin-top: 30px;
     break-after: always;
-    padding: 40px;
+    padding: 15px;
 }
 
 footer {
-    display: block;
     background-color: var(--footer-bg);
 }
 
 i {
     background-color: var(--footer-bg);
     text-align: center;
-    font-size: 65px;
+    font-size: 45px;
     padding: 40px;
     transition: 1.5s;
 }
@@ -161,7 +164,7 @@ i:hover {
         grid-template-areas: ". s1 ." ". s2 ." ". f .";
         grid-row-gap: 15px;
         align-items: center;
-        margin-left: 15px;
+        margin: 40px;
     }
     #sololearn1 {
         grid-area: s1;
